@@ -12,7 +12,7 @@ const pricingPlans = [
     },
     {
         title: "方案 B",
-        subtitle: "零碎／空間租借（活動）",
+        subtitle: "空間租借（活動）",
         details: [
             "1. 適合：講座、分享會、小型聚會",
             "2. 收費：人數、設備、時間",

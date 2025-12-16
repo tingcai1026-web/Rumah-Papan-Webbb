@@ -5,19 +5,19 @@ const processSteps = [
         icon: FileText,
         step: "Step 1",
         title: "聯繫&提出需求",
-        description: "分享使用目的(拍攝/活動)、活動日期、人數/時間、可接受費用、73・16・WhatsApp 聯絡我們"
+        description: "分享你預計的拍攝／活動日期、人數與用途，可透過表單、FB、IG 或 WhatsApp 聯絡班厝。"
     },
     {
         icon: MapPin,
         step: "Step 2",
         title: "場勘&報價確認",
-        description: "現場看空間可用性、如有需要可先場勘、並提供正式報價單"
+        description: "現班厝會回覆可用檔期，如有需要可預約勘場，並提供正式報價與方案。"
     },
     {
         icon: CheckCircle,
         step: "Step 3",
         title: "確認&進場使用",
-        description: "確認日期與費用後付訂、結餘在場地使用前、進場開始使用場地"
+        description: "確認日期後簽約與付訂，劇組可提前進場佈置，活動當天由班厝協助開門與善後。"
     }
 ];
 

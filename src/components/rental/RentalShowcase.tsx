@@ -4,19 +4,19 @@ import { ChevronRight, ChevronLeft } from 'lucide-react';
 // 場地租借輪播圖片與文案
 const slides = [
     {
-        image: "/image/客廳_交誼廳.jpg",
+        image: "/image/494713951_686469430644056_9088326764906742071_n.jpg",
         title: "班厝全館｜拍攝場景租借",
         description: "廣告、MV、短片、電視劇、紀錄片、學生作品，把下一支作品拍在真正的新村裡。"
     },
     {
-        image: "/image/前院涼亭.jpeg",
+        image: "/image/租借活動4.jpg",
         title: "活動空間租借",
         description: "講座、分享會、小型聚會，在充滿故事的空間裡舉辦您的活動。"
     },
     {
-        image: "/image/彩虹小徑.jpeg",
-        title: "彩虹小徑",
-        description: "獨特的彩色步道,是拍攝取景的絕佳場景。"
+        image: "/image/租借活動1.jpg",
+        title: "不只是租場地，也是支持新村",
+        description: "在班厝拍片或辦活動，讓班達馬蘭被看見，也讓社區更有力量。"
     }
 ];
 
@@ -36,7 +36,7 @@ export const RentalShowcase = () => {
             <div className="relative w-full h-[500px] rounded-3xl overflow-hidden group">
                 {/* Background Image */}
                 <div
-                    className="absolute inset-0 bg-cover bg-center transition-all duration-700 group-hover:scale-105"
+                    className="absolute inset-0 bg-cover bg-[center_35%] transition-all duration-700 group-hover:scale-105"
                     style={{ backgroundImage: `url('${slides[currentIndex].image}')` }}
                 >
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
