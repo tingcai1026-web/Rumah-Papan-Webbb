@@ -21,7 +21,7 @@ const slides = [
     {
         image: "/image/Banner_技能換宿.jpg",
         title: "技能換宿",
-        description: "用你的專長ㄘ交換住宿，深入體驗在地生活。"
+        description: "用你的專長交換住宿，深入體驗在地生活。"
     },
     {
         image: "/image/Banner_市集.jpg",
