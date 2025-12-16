@@ -3,8 +3,8 @@ import { ArrowRight } from 'lucide-react';
 const newsItems = [
     { date: "2025.12.02", tag: "最新", title: "《新村玩+》市集進駐班厝局！陪同度過雪州77個新村故事" },
     { date: "2025.12.01", tag: "最新", title: "走進馬來西亞最大福建新村：12/6 免費入村導覽" },
-    { date: "2025.11.21", tag: "觀察", title: "舊村 Long Gai 去！帶著短褲布鞋一起出門 YouKai 咯！" },
-    { date: "2025.11.06", tag: "觀察", title: "住進故事裡的舊村：2天1夜班厝民宿體驗" },
+    { date: "2025.11.21", tag: "最新", title: "舊村 Long Gai 去！帶著短褲布鞋一起出門 YouKai 咯！" },
+    { date: "2025.11.06", tag: "最新", title: "住進故事裡的舊村：2天1夜班厝民宿體驗" },
 ];
 
 export const NewsList = () => {
