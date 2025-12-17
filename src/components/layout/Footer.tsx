@@ -43,7 +43,7 @@ export const Footer = () => {
 
                     <h4 className="text-white font-bold mt-6 mb-4">地址</h4>
                     <p className="text-sm leading-relaxed">
-                        124, Jalan Kemas, 42000 Pelabuhan Klang, Klang, Malaysia, 42000
+                        124, Jalan Kemanis, 42000 Pelabuhan Klang, Klang, Malaysia, 42000
                     </p>
                 </div>
             </div>

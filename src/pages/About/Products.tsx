@@ -1,34 +1,34 @@
 export const Products = () => {
     const productsData = [
         {
-            image: "/image/product1.jpg",
-            title: "有機蔬菜",
-            description: "班厝種植的有機蔬菜，不使用化學農藥，採用永續農法，提供新鮮健康的食材給社區和訪客。"
+            image: "/image/桑葉茶包.jpeg",
+            title: "桑葉茶包系列",
+            description: "以樹葉曬乾製成無咖啡因，桑葉搭配藥材，調成五種配方，消脂、明目養肝、潤肺養顏、清熱止咳、開胃解膩，適合每天當涼茶喝。"
         },
         {
-            image: "/image/product2.jpg",
-            title: "香草植物",
-            description: "庭園中種植多種香草植物，包括薄荷、羅勒、檸檬草等，用於烹飪和製作天然飲品。"
+            image: "/image/肉骨茶湯包.jpeg",
+            title: "班厝肉骨茶包",
+            description: "以胡椒、蒜頭與中藥材調製，一包可煮一公斤肉或素料，在家就能燉出巴生在地人最熟悉的暖身熱湯。"
         },
         {
-            image: "/image/product3.jpg",
-            title: "熱帶水果",
-            description: "馬來西亞特有的熱帶水果，如香蕉、木瓜、芒果等，在班厝的果園中茁壯成長。"
+            image: "/image/咖啡豆五粒子.png",
+            title: "咖啡豆五粒子",
+            description: "咖啡豆五粒子：把咖啡豆、相思豆收進小布袋，搭配蠟染布圖案，一邊拋接玩五粒子，一邊感受巴生咖啡與在地文化的故事"
         },
         {
-            image: "/image/product4.jpg",
-            title: "手作醬料",
-            description: "使用自家種植的香草和辛香料製作的天然醬料，保留傳統風味。"
+            image: "/image/艾草香包.png",
+            title: "艾草香包",
+            description: "艾草香包：採自班厝菜園的新鮮艾草曬乾製成，帶淡淡草本香氣，可掛門口或放在包包裡，驅蚊、防穢氣，也多一份安心感。"
         },
         {
-            image: "/image/product5.jpg",
-            title: "天然酵素",
-            description: "利用果皮和廚餘發酵製成的環保清潔酵素，實踐永續生活理念。"
+            image: "/image/九層塔青醬.jpeg",
+            title: "九層塔青醬",
+            description: "九層塔的香氣在鍋裡慢慢醒來，在班厝，一匙青醬，就是故事開始變好吃的瞬間。"
         },
         {
-            image: "/image/product6.jpg",
-            title: "在地伴手禮",
-            description: "精選班達馬蘭新村特色產品，讓訪客帶走一份新村的記憶。"
+            image: "/image/木鱉果香皂.jpeg",
+            title: "木鱉果香皂",
+            description: "木鱉果的香氣被揉進香皂裡，洗掉一身疲憊，也把新村的陽光留在手心。"
         }
     ];
 

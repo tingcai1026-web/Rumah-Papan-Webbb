@@ -4,11 +4,12 @@ import { ChevronDown, Mail, Search } from 'lucide-react';
 
 export const Navbar = () => {
     const [isAboutOpen, setIsAboutOpen] = useState(false);
+    const [isVillageOpen, setIsVillageOpen] = useState(false);
 
     return (
         <nav className="w-full flex items-center justify-between px-12 py-6 bg-bg border-b border-black/5 sticky top-0 z-50">
             {/* Logo */}
-            <Link to="/" className="flex items-center gap-3">
+            <Link to="/home" className="flex items-center gap-3">
                 {/* Placeholder Icon/Logo */}
                 <div className="relative w-8 h-8">
                     <div className="absolute inset-0 border-2 border-text transform rotate-45"></div>
@@ -47,8 +48,25 @@ export const Navbar = () => {
                     </div>
                 </div>
 
-                <div className="flex items-center gap-1 cursor-pointer hover:text-primary transition-colors">
-                    走進新村 <ChevronDown size={14} />
+                {/* Village Dropdown */}
+                <div
+                    className="relative group"
+                    onMouseEnter={() => setIsVillageOpen(true)}
+                    onMouseLeave={() => setIsVillageOpen(false)}
+                >
+                    <div className="flex items-center gap-1 cursor-pointer hover:text-primary transition-colors py-2">
+                        走進新村 <ChevronDown size={14} className={`transition-transform duration-300 ${isVillageOpen ? 'rotate-180' : ''}`} />
+                    </div>
+
+                    {/* Dropdown Menu */}
+                    <div className={`absolute top-full left-1/2 -translate-x-1/2 pt-2 transition-all duration-300 ${isVillageOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}>
+                        <div className="bg-white rounded-xl shadow-lg py-3 w-40 flex flex-col overflow-hidden">
+                            <Link to="/village/activities" className="px-6 py-3 hover:bg-gray-50 hover:text-primary text-text font-bold text-center transition-colors">活動體驗</Link>
+                            <Link to="/village/accommodation" className="px-6 py-3 hover:bg-gray-50 hover:text-primary text-text font-bold text-center transition-colors">住宿體驗</Link>
+                            <Link to="/village/skill-exchange" className="px-6 py-3 hover:bg-gray-50 hover:text-primary text-text font-bold text-center transition-colors">技能換宿</Link>
+                            <Link to="/village/map" className="px-6 py-3 hover:bg-gray-50 hover:text-primary text-text font-bold text-center transition-colors">觀光地圖</Link>
+                        </div>
+                    </div>
                 </div>
                 <a href="#" className="hover:text-primary transition-colors">交通方式</a>
                 <a href="#" className="hover:text-primary transition-colors">聯絡我們</a>
