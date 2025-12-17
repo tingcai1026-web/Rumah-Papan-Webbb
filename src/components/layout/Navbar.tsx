@@ -68,8 +68,8 @@ export const Navbar = () => {
                         </div>
                     </div>
                 </div>
-                <a href="#" className="hover:text-primary transition-colors">交通方式</a>
-                <a href="#" className="hover:text-primary transition-colors">聯絡我們</a>
+                <Link to="/village/transportation" className="hover:text-primary transition-colors">交通方式</Link>
+                <Link to="/contact" className="hover:text-primary transition-colors">聯絡我們</Link>
             </div>
 
             {/* Actions */}
@@ -79,10 +79,10 @@ export const Navbar = () => {
                     <span className="text-text/30">|</span>
                     <span className="text-text/50 cursor-pointer hover:text-text transition-colors">EN</span>
                 </div>
-                <button className="flex items-center gap-2 px-6 py-2 border-1.5 border-text rounded-full hover:bg-text hover:text-bg transition-all duration-300 group">
+                <Link to="/contact" className="flex items-center gap-2 px-6 py-2 border-1.5 border-text rounded-full hover:bg-text hover:text-bg transition-all duration-300 group">
                     <Mail size={16} className="group-hover:stroke-bg" />
                     <span className="font-medium text-sm">聯絡我們</span>
-                </button>
+                </Link>
             </div>
         </nav>
     );

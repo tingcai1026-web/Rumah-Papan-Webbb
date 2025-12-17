@@ -4,7 +4,8 @@ import { EntryPage } from './pages/EntryPage';
 import { Home } from './pages/Home';
 import { StoryLog } from './pages/About/StoryLog';
 import { Environment, Products, Rental } from './pages/AboutPages';
-import { ActivityExperience, Accommodation, SkillExchange, TourismMap } from './pages/VillagePages';
+import { ActivityExperience, Accommodation, SkillExchange, TourismMap, Transportation } from './pages/VillagePages';
+import { Contact } from './pages/Contact';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
           <Route path="/village/accommodation" element={<Accommodation />} />
           <Route path="/village/skill-exchange" element={<SkillExchange />} />
           <Route path="/village/map" element={<TourismMap />} />
+          <Route path="/village/transportation" element={<Transportation />} />
+          <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
     </Router>
